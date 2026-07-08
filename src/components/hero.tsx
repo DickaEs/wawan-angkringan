@@ -40,7 +40,7 @@ export function Hero() {
           </div>
           <div className="mt-8 flex items-start gap-3 text-sm text-stone-600 dark:text-stone-300">
             <MapPin className="mt-0.5 shrink-0 text-orange-700 dark:text-orange-300" size={18} />
-            <span>Jl. Angkringan Hangat No. 7, dekat perempatan kampung</span>
+            <span>Jalan Jawa, Blok 2 No. A7, Gamping, Ponowaren, Nogotirto, Sleman, Kabupaten Sleman, Yogyakarta</span>
           </div>
         </div>
 

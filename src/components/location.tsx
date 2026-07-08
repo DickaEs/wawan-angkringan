@@ -20,7 +20,7 @@ export function Location() {
                     Alamat
                   </h3>
                   <p className="mt-1 text-stone-600 dark:text-stone-300">
-                    Jl. Angkringan Hangat No. 7, dekat perempatan kampung
+                    Jalan Jawa, Blok 2 No. A7, Gamping, Ponowaren, Nogotirto, Sleman, Kabupaten Sleman, Yogyakarta
                   </p>
                 </div>
               </div>
@@ -31,7 +31,7 @@ export function Location() {
                     Jam Buka
                   </h3>
                   <p className="mt-1 text-stone-600 dark:text-stone-300">
-                    Senin - Minggu, 17.00 - 23.30 WIB
+                    Senin - Sabtu, 16.00 - 20.00 WIB
                   </p>
                 </div>
               </div>

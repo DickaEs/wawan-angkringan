@@ -48,7 +48,7 @@ export function About() {
                 Mas Wawan
               </h3>
               <p className="mt-2 text-sm leading-6 text-stone-600 dark:text-stone-300">
-                Selalu menyiapkan menu favorit pelanggan dengan senyum dan
+                Selalu menghidangkan menu dengan senyum dan
                 obrolan ringan khas angkringan.
               </p>
             </div>
