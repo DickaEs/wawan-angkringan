@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { HeartHandshake, Sparkles, Wallet } from "lucide-react";
 import { SectionHeading } from "@/components/section-heading";
 
@@ -31,9 +32,17 @@ export function About() {
 
         <div className="grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr]">
           <div className="relative min-h-[360px] overflow-hidden rounded-3xl border border-amber-950/10 bg-[linear-gradient(135deg,#f6ead4,#ffffff_42%,#e98b3a)] p-6 shadow-xl shadow-amber-950/10 dark:border-white/10 dark:bg-[linear-gradient(135deg,#2b2118,#111827_55%,#8a4b20)]">
+            <Image
+              src="/images/pemilik.jpg"
+              alt="Foto Mas Wawan, pemilik Angkringan Mas Wawan"
+              fill
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-stone-950/10 to-transparent" />
             <div className="absolute inset-x-6 bottom-6 rounded-2xl bg-white/85 p-5 shadow-lg backdrop-blur dark:bg-stone-950/75">
               <p className="text-sm font-semibold text-orange-700 dark:text-orange-300">
-                Placeholder Foto Pemilik
+                Pemilik Angkringan
               </p>
               <h3 className="mt-2 text-2xl font-bold text-stone-950 dark:text-white">
                 Mas Wawan
