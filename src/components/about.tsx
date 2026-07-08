@@ -31,25 +31,25 @@ export function About() {
         />
 
         <div className="grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr]">
-          <div className="relative min-h-[360px] overflow-hidden rounded-3xl border border-amber-950/10 bg-[linear-gradient(135deg,#f6ead4,#ffffff_42%,#e98b3a)] p-6 shadow-xl shadow-amber-950/10 dark:border-white/10 dark:bg-[linear-gradient(135deg,#2b2118,#111827_55%,#8a4b20)]">
+          <div className="relative min-h-[500px] overflow-hidden rounded-3xl border border-amber-950/10 bg-[linear-gradient(135deg,#f6ead4,#ffffff_42%,#e98b3a)] shadow-xl shadow-amber-950/10 dark:border-white/10 dark:bg-[linear-gradient(135deg,#2b2118,#111827_55%,#8a4b20)] sm:min-h-[460px] lg:min-h-[520px]">
             <Image
               src="/images/pemilik.jpg"
               alt="Foto Mas Wawan, pemilik Angkringan Mas Wawan"
               fill
               sizes="(min-width: 1024px) 45vw, 100vw"
-              className="object-cover"
+              className="object-cover object-[50%_18%]"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-stone-950/10 to-transparent" />
-            <div className="absolute inset-x-6 bottom-6 rounded-2xl bg-white/85 p-5 shadow-lg backdrop-blur dark:bg-stone-950/75">
+            <div className="absolute inset-0 bg-gradient-to-t from-stone-950/65 via-stone-950/5 to-transparent" />
+            <div className="absolute inset-x-4 bottom-4 rounded-2xl border border-white/55 bg-white/72 p-4 shadow-lg backdrop-blur-xl dark:border-white/10 dark:bg-stone-950/60 sm:inset-x-6 sm:bottom-6 sm:p-5">
               <p className="text-sm font-semibold text-orange-700 dark:text-orange-300">
                 Pemilik Angkringan
               </p>
-              <h3 className="mt-2 text-2xl font-bold text-stone-950 dark:text-white">
+              <h3 className="mt-2 text-2xl font-bold leading-tight text-stone-950 dark:text-white">
                 Mas Wawan
               </h3>
               <p className="mt-2 text-sm leading-6 text-stone-600 dark:text-stone-300">
-                Selalu menghidangkan menu dengan senyum dan
-                obrolan ringan khas angkringan.
+                Selalu menghidangkan menu dengan senyum dan obrolan ringan khas
+                angkringan.
               </p>
             </div>
           </div>
