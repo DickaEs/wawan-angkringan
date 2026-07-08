@@ -53,18 +53,14 @@ export function Location() {
           </div>
 
           <div className="min-h-[360px] overflow-hidden rounded-2xl border border-amber-950/10 bg-white shadow-sm dark:border-white/10 dark:bg-stone-900">
-            <div className="grid h-full min-h-[360px] place-items-center bg-[linear-gradient(135deg,#f8efe1,#ffffff_45%,#f29b46)] p-6 text-center dark:bg-[linear-gradient(135deg,#111827,#1c1917_50%,#7c3f16)]">
-              <div>
-                <MapPin className="mx-auto mb-4 text-orange-700 dark:text-orange-300" size={42} />
-                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-orange-700 dark:text-orange-300">
-                  Google Maps Placeholder
-                </p>
-                <p className="mx-auto mt-3 max-w-sm text-stone-700 dark:text-stone-200">
-                  Area ini siap diganti dengan embed Google Maps asli dari
-                  lokasi Angkringan Mas Wawan.
-                </p>
-              </div>
-            </div>
+            <iframe
+              title="Lokasi Angkringan Mas Wawan di Google Maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.4668038269406!2d110.33944146991416!3d-7.765780628239197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a587a7cd2ed45%3A0x68562356cf3b0183!2sAngkringan%20Mas%20Wawan!5e1!3m2!1sid!2sid!4v1783501075251!5m2!1sid!2sid"
+              className="h-[360px] w-full border-0"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
           </div>
         </div>
       </div>
